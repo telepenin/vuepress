@@ -8,6 +8,23 @@ All markdown files are compiled into Vue components and processed by webpack, th
 ![An image](./image.png)
 ```
 
+
+``` md
+![An image](./image.png)
+```
+
+
+``` md
+![An image](./image.png)
+```
+
+
+``` md
+![An image](./image.png)
+```
+
+
+
 This would work the same way as in `*.vue` file templates. The image will be processed with `url-loader` and `file-loader`, and copied to appropriate locations in the generated static build.
 
 In addition, you can use the `~` prefix to explicitly indicate this is a webpack module request, allowing you to reference files with webpack aliases or from npm dependencies:
